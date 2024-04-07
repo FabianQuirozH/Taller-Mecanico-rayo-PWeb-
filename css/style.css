@@ -1,0 +1,487 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #16222A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #3A6073, #16222A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header{
+    background-image: url(../img/taller2.jpeg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+.menu{
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/*Configuracion del logo*/
+.logo{
+    font-size: 20px; /*tamaño*/
+    color:aquamarine; /*Color*/
+    font-weight: 800; /*Grosor de letra*/
+    text-transform: uppercase; /*mayus o minus*/
+}
+
+.menu .navbar ul li{
+    position: relative;
+    float: left;  
+}
+
+.menu .navbar ul li a{
+    font-size: 18px;
+    padding: 20px;
+    color: white;
+    display: block;  
+    font-weight: bold;
+}
+
+.menu .navbar ul li a:hover{
+    color: red;
+}
+
+#menu{
+    display: none;
+}
+
+.menu-icono{
+    width: 25px;
+}
+
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+
+.header-txt{
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.header-txt h1, span, h3{
+    font-size: 110px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.header-txt span{
+    font-size: 25px;
+}
+
+.header-txt p{
+    color: white;
+    padding: 0 250px;
+    margin: 25px 0;
+}
+
+.btn-1{
+    display: inline-block;
+    padding: 11px 25px;
+    background-color: red;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+    margin: 25px 0;
+    border: 0;
+}
+
+.btn-1:hover{
+    background-color:black;
+}
+
+.header-dir{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.dir h3{
+    font-size: 18px;
+}
+
+.dir p{
+    font-size: 22px;
+    color: white;
+    text-transform:uppercase;
+}
+
+.welcome{
+    display: flex;
+}
+
+.welcome-1{
+    background-image: url(../img/mecanicoanimado.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.welcome-2{
+    width: 50%;
+    padding: 150px 250px 150px 100px;
+    background-color: white;
+
+}
+
+
+h2{ 
+    font-size: 90px;
+    line-height: 100px;
+    color: black;
+    text-transform:uppercase;
+    font-family: 'Bebas Neue', cursive;
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: 16px;
+    color:black;
+    margin: 25px 0;
+}
+
+.b1{
+    color: red;
+}
+
+.proyectos{
+    padding: 100px 0;
+    text-align: center;
+}
+
+.proyectos-txt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+hr{
+    border: 1px solid red;
+    width: 80px;
+}
+
+.proyectos-txt p{
+    padding: 50px 150px
+}
+
+.proyectos-group{
+    display: flex;
+    justify-content: space-between;
+    margin: 45px 0;
+}
+
+.proyectos-1{
+    background-color: white;
+    padding: 35px 25px;
+    margin: 0 10px;
+    border-radius: 15px;
+}
+
+.proyectos-1 img{
+    width: 250px;
+    margin-bottom: 15px;
+}
+
+.proyectos-1 h3{
+    font-size: 25px;
+    color: black;
+}
+
+.proyectos-1 a{
+    color: white;
+    font-size: 16px;
+}
+
+.prices{
+    display: flex;
+}
+
+.prices-1{
+    width: 50%;
+    padding: 150px 250px 150px 100px;
+    background-color: white;
+}
+
+table{
+    margin: 50px 0;
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+
+}
+
+tr{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+}
+
+th{
+    color: black;
+    padding-bottom: 15px;
+}
+
+td{
+    color: red;
+}
+
+.prices-2 {
+    background-image: url(../img/dinero3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.mecanicos{
+    padding: 100px 0;
+    text-align: center;
+}
+
+.personal-txt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.mecanicos-group{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+
+.mecanicos-1{
+    text-align: center;
+}
+
+.mecanicos-1 img{
+    width: 250px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+
+.mecanicos-1 h3{
+    font-size: 22px;
+}
+
+.mecanicos-1 p{
+    padding: 0 50px;
+}
+
+.mecanicos-1 a{
+    color: red;
+}
+
+.footer-bg{
+    background-image: url(../img/agendatucita.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.campo-1{
+    margin-bottom: 15px;
+}
+
+.campo{
+    margin: 5px;
+    padding: 20px 15px;
+    width: 250px;
+    background-color: blanchedalmond;
+    border: 1px solid red;
+    outline: none;
+    border-radius: 10px;
+    color: black;
+    font-size: 14px;
+}
+
+textarea{
+    width: 520px !important;
+}
+
+.footer-txt{
+    text-align: center;
+    padding: 10px;
+    background-color: white;
+}
+
+@media(max-width:991px){
+    .menu{
+        padding: 20px;
+    }
+
+    .menu label{
+        display: initial;
+    }
+
+    .menu .navbar{
+        position: relative;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: white;
+        display: none;
+    }
+
+    .menu .navbar ul li{
+        width: 100%;
+    }
+
+    #menu:checked ~ .navbar{
+        display: initial;
+    }
+
+    .header{
+        min-height: 0vh;
+    }
+
+    .header-content{
+        padding: 80px 30px 50px 30px;
+    }
+
+    .header-txt{
+        margin-bottom: 15px;
+    }
+
+    .header-txt h1{
+        font-size: 90px;
+    }
+
+    .header-txt p{
+        padding: 0;
+        margin: 15px 0;
+    }
+
+    .header-dir{
+        flex-direction: column;
+    }
+
+    .dir p{
+        font-size: 18px;
+    }
+
+    .welcome{
+        flex-direction: column;
+    }
+
+    .welcome-1{
+        display: none;
+    }
+
+    .welcome-2{
+        width: 100%;
+        padding: 30px;
+        text-align: center;
+    }
+
+    h2{
+        font-size: 70px;
+        line-height: 80px;
+    }
+
+    p{
+        margin: 15px 0;
+    }
+
+    .proyectos{
+        padding: 30px;
+    }
+
+    .proyectos-txt p{
+        padding: 0;
+    }
+
+    .proyectos-group{
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .proyectos-1{
+        margin: 0 0 20px 0;
+    }
+
+    .prices{
+        flex-direction: column;
+    }
+
+    .prices-1{
+        width: 100%;
+        padding: 30px;
+        text-align: center;
+    }
+
+    table{
+        margin: 25px 0 0 0;
+    }
+
+    .prices-2{
+        display: none;
+    }
+
+    .mecanicos{
+        padding: 30px;
+    }
+
+    .mecanicos-group{
+        flex-direction: column;
+    }
+
+    .mecanicos-1{
+        margin-bottom: 25px;
+    }
+
+    .footer-bg{
+        padding: 30px;
+    }
+
+    textarea{
+        width: 250px !important;
+    }
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INICIO SESION</title>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <!--<ul>
+        <li><a href="admin.html">Iniciar admin</a></li>
+        <li><a href="inicionormal.html">Guardar</a></li>
+        <li><a href="crearcuenta.html">Crear cuenta</a></li>
+    </ul>-->
+
+    <div class="inicio">
+        <h1>INICIO DE SESION</h1>
+        <form method="post" action="inicionormal.html">
+            <div class="username">
+                <input type="text" required>
+                <label>Nombre usuario</label><!--Para iniciar  con el nombre de usuario-->
+            </div>
+            <div class="username">
+                <input type="password" required>
+                <label>Contraseña</label>
+            </div>
+
+            <div class="recordar">¿Olvidó su contraseña?</div>
+            <input type="submit" value="Iniciar">
+            <div class="registrarse">
+                Quiero <a href="crearcuenta.html">registrarme!</a> <!--Para crear la cuenta, ir al registro-->
+            </div>
+            <div class="volver">
+                Volver a <a href="index.html">INICIO</a>
+            </div>
+
+            <div class="entraradmin">
+                <a href="admin.html">admin</a> <!--Entrada admin-->
+            </div>
+
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    margin: 0;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 14rem 1fr 1fr;
+    grid-template-rows: auto 1fr auto auto auto;
+    grid-template-areas: 
+    "nav nav nav"
+    "main main main"
+    "reali reali reali"
+    "conte conte conte"
+    "secti secti secti "
+    "footer footer footer";
+  
+}
+
+
+
+nav {
+    grid-area: nav;
+    padding: 40px;
+    display: flex;
+    flex-direction: column; /* Para hacer el nav vertical */
+    align-items: center;
+   
+}
+
+main {
+    grid-area: main;
+    color: grey;
+   
+    
+}
+main h2{
+    color: white;
+   font-size: 40px;
+}
+main img{
+    max-height: 800px;
+}
+.Realizados{
+    grid-area: reali;
+    padding: 15px;
+    text-align: center;
+}
+.Realizados h2{
+    font-size: 60px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    color: grey;
+    margin-bottom: 15px;
+}
+
+.section {
+    grid-area: secti;
+    text-align: center;
+    margin-top: 70px;
+
+}
+.section h2{
+    font-size: 60px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    color: grey;
+    margin-bottom: 15px;
+}
+section iframe{
+border-radius: 5%;
+padding: 15px;
+}
+
+.container .box-container {
+    grid-area: conte;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(450px, 1fr)); /* Columnas que se ajustan automáticamente, con un ancho mínimo de 300px */
+    grid-gap: 15px; /* Espacio entre las cajas */
+
+}
+footer {
+    margin-top: 30px;
+    grid-area: footer;
+    padding: 1rem;
+    text-align: center;
+    background-color: #abb7c586;
+ 
+    
+}
+
+
+.box {
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    border-radius: 5px;
+    background: #c8d3d6b0;
+    text-align: center;
+    padding:20px 20px;
+    margin-left: 20px;
+    margin-block-end: 20px;
+}
+
+.box img {
+    height: 250px;
+    width: 250px;
+}
+
+.box h3 {
+    color:#444;
+    font-size: 22px;
+    padding:10px 0;
+}
+
+.box p {
+    color:#777;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.box .btn {
+    margin-top: 10px;
+    display: inline-block;
+    background:#333;
+    color:#fff;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 8px 25px;
+}
+
+
+
